@@ -4311,6 +4311,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 120.65 52.07)
@@ -4535,6 +4650,12 @@
 		(uuid "08e930f9-76e4-4960-82cf-852a645eff4d")
 	)
 	(junction
+		(at 156.21 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "110e3878-6f6c-43d6-a7cd-8d28a97fb446")
+	)
+	(junction
 		(at 151.13 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4551,12 +4672,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "294e270a-e63e-4efa-a739-977d91d9ef87")
-	)
-	(junction
-		(at 62.23 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2db6e2d3-1991-445e-9985-94cd927c0ceb")
 	)
 	(junction
 		(at 154.94 33.02)
@@ -4607,10 +4722,22 @@
 		(uuid "58f57a7e-5e30-44ea-819f-49d78ae75dea")
 	)
 	(junction
+		(at 179.07 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f462fe1-e1f0-42b6-9c3b-1e85207133cc")
+	)
+	(junction
 		(at 86.36 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a49a705-ba3f-420f-a9f1-fc7d150dfbe9")
+	)
+	(junction
+		(at 78.74 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6eb63b1e-3923-4886-b57e-e2dc9260d3d2")
 	)
 	(junction
 		(at 170.18 81.28)
@@ -4623,6 +4750,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84f0d5f0-f73b-4bf9-9ec0-650a2fc3d240")
+	)
+	(junction
+		(at 124.46 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85e3fa41-c0a2-4504-937d-fe1a5ffda89e")
 	)
 	(junction
 		(at 212.09 115.57)
@@ -4647,6 +4780,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97a1c07e-81b5-4427-814e-83577f73cd68")
+	)
+	(junction
+		(at 161.29 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9aa8c957-ff76-42b8-91c6-a1265ba6d2db")
 	)
 	(junction
 		(at 49.53 125.73)
@@ -4689,6 +4828,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdcc3e8e-3d5e-45e8-ad4d-3cd70454a26b")
+	)
+	(junction
+		(at 222.25 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce88d2d8-2666-4571-b194-b6a06d9d572b")
 	)
 	(junction
 		(at 181.61 72.39)
@@ -4778,7 +4923,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 41.91) (xy 62.23 41.91)
+			(xy 99.06 41.91) (xy 78.74 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4825,6 +4970,16 @@
 			(type default)
 		)
 		(uuid "101131f7-d038-42d1-a1f4-8a921638e104")
+	)
+	(wire
+		(pts
+			(xy 124.46 104.14) (xy 124.46 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107b5fc4-b0d9-4846-956f-5508cc38bd25")
 	)
 	(wire
 		(pts
@@ -5048,7 +5203,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 39.37) (xy 62.23 41.91)
+			(xy 78.74 39.37) (xy 78.74 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5248,16 +5403,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 30.48) (xy 134.62 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "508c8b8b-02c7-4ac1-94b4-f58b7441ff49")
-	)
-	(wire
-		(pts
 			(xy 151.13 27.94) (xy 151.13 25.4)
 		)
 		(stroke
@@ -5438,13 +5583,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 30.48) (xy 137.16 25.4)
+			(xy 78.74 41.91) (xy 62.23 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "644fd62f-69ca-4e8f-8623-30d36c644710")
+		(uuid "640217b0-b65f-4761-b0bd-e2b269098623")
 	)
 	(wire
 		(pts
@@ -5458,7 +5603,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 33.02) (xy 143.51 33.02)
+			(xy 129.54 33.02) (xy 143.51 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5475,6 +5620,16 @@
 			(type default)
 		)
 		(uuid "67daa5ce-9025-45e2-a10f-0a96cbba3ea2")
+	)
+	(wire
+		(pts
+			(xy 156.21 114.3) (xy 161.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c2df6fd-9d6b-49a3-a21e-579b75c817ac")
 	)
 	(wire
 		(pts
@@ -5495,6 +5650,16 @@
 			(type default)
 		)
 		(uuid "6ec572b9-4bce-4101-b88c-cd62a84ffe90")
+	)
+	(wire
+		(pts
+			(xy 161.29 114.3) (xy 161.29 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f322550-a230-46e1-90f8-d123f7e2f9f8")
 	)
 	(wire
 		(pts
@@ -5605,6 +5770,16 @@
 			(type default)
 		)
 		(uuid "7fc95bd5-a235-4c72-ad05-381c844df43f")
+	)
+	(wire
+		(pts
+			(xy 156.21 104.14) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810a5d58-c9e2-4e8f-805d-82bd95cbf676")
 	)
 	(wire
 		(pts
@@ -5745,6 +5920,26 @@
 			(type default)
 		)
 		(uuid "9305a0d1-4fcf-48f7-b3ae-511def7496fc")
+	)
+	(wire
+		(pts
+			(xy 161.29 114.3) (xy 166.37 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ae8933-d79f-47a6-b086-37ece1b1a9b4")
+	)
+	(wire
+		(pts
+			(xy 124.46 104.14) (xy 156.21 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954c3f80-e5df-4fc7-9f0b-0be1aeda792b")
 	)
 	(wire
 		(pts
@@ -5968,6 +6163,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 104.14) (xy 156.21 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ee2421-3112-44cd-bc39-95b60cd97ae4")
+	)
+	(wire
+		(pts
 			(xy 53.34 175.26) (xy 63.5 175.26)
 		)
 		(stroke
@@ -5978,7 +6183,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 59.69) (xy 81.28 59.69)
+			(xy 74.93 59.69) (xy 88.9 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6025,16 +6230,6 @@
 			(type default)
 		)
 		(uuid "c5e2d9ee-8fce-4a60-9881-f12cab5933c6")
-	)
-	(wire
-		(pts
-			(xy 137.16 25.4) (xy 151.13 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca65d8ba-04be-4127-8c8c-a1ede73ae42a")
 	)
 	(wire
 		(pts
@@ -6138,7 +6333,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 106.68) (xy 124.46 113.03)
+			(xy 124.46 102.87) (xy 124.46 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6308,6 +6503,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 106.68) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9758262-cb0c-498e-8eb7-fbb0ff5296c0")
+	)
+	(wire
+		(pts
 			(xy 124.46 168.91) (xy 124.46 172.72)
 		)
 		(stroke
@@ -6336,7 +6541,7 @@
 		)
 		(uuid "f9e0f25d-cfbf-4273-ae6e-446fc0073f21")
 	)
-	(label "switch_a"
+	(label "v_sys"
 		(at 34.29 179.07 0)
 		(effects
 			(font
@@ -6367,7 +6572,7 @@
 		(uuid "09b29f68-583d-441a-ba03-dcb28e9c7871")
 	)
 	(label "v_usb"
-		(at 62.23 39.37 0)
+		(at 78.74 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6436,7 +6641,7 @@
 		)
 		(uuid "2d4c6dd6-e4c9-41dc-8767-5a4e4eed753e")
 	)
-	(label "v_batt_measure"
+	(label "v_batt_meas"
 		(at 157.48 148.59 0)
 		(effects
 			(font
@@ -6457,7 +6662,7 @@
 		(uuid "36214730-44de-4848-9d94-0dcc4b0bcab7")
 	)
 	(label "v_3v3"
-		(at 124.46 106.68 0)
+		(at 124.46 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6496,7 +6701,7 @@
 		)
 		(uuid "4e260a4d-f172-463a-8b9a-d9ff4860d866")
 	)
-	(label "switch_b"
+	(label "switch"
 		(at 34.29 181.61 0)
 		(effects
 			(font
@@ -6526,7 +6731,7 @@
 		)
 		(uuid "5892d7e9-0f56-4890-87b1-d70b3dd018e6")
 	)
-	(label "v_batt_measure"
+	(label "v_batt_meas"
 		(at 266.7 78.74 180)
 		(effects
 			(font
@@ -6546,7 +6751,7 @@
 		)
 		(uuid "5e31a2d8-c6e0-4a0a-a405-8bffb4a905d7")
 	)
-	(label "buzzer"
+	(label "button"
 		(at 34.29 190.5 0)
 		(effects
 			(font
@@ -6626,8 +6831,8 @@
 		)
 		(uuid "81a32fc4-8d22-440b-929b-27dcc6c6b112")
 	)
-	(label "switch_b"
-		(at 134.62 33.02 180)
+	(label "switch"
+		(at 129.54 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6656,7 +6861,17 @@
 		)
 		(uuid "8a857da0-879d-4180-9fd5-58b497f1d45a")
 	)
-	(label "esp_usb_dn"
+	(label "esp_usb_dm"
+		(at 63.5 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fb00397-9e93-47db-a7e6-7325e00d1f9e")
+	)
+	(label "esp_usb_dm"
 		(at 266.7 67.31 180)
 		(effects
 			(font
@@ -6666,7 +6881,7 @@
 		)
 		(uuid "8fc71379-21bf-4009-be65-9b578ca21706")
 	)
-	(label "buzzer"
+	(label "button"
 		(at 157.48 146.05 0)
 		(effects
 			(font
@@ -6697,16 +6912,16 @@
 		(uuid "b8ccfff5-9714-4cf8-a041-66da9d7afd12")
 	)
 	(label "v_usb"
-		(at 129.54 44.45 0)
+		(at 129.54 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b9767148-a42e-445d-ac18-8ac0bde809d0")
 	)
-	(label "v_batt_measure"
+	(label "v_batt_meas"
 		(at 63.5 172.72 90)
 		(effects
 			(font
@@ -6725,16 +6940,6 @@
 			(justify left bottom)
 		)
 		(uuid "c2787eb0-0251-4587-b855-4acdab034145")
-	)
-	(label "esp_usb_dp"
-		(at 63.5 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb3eee26-a38f-475a-bdfc-e7be8e275831")
 	)
 	(label "boost_en"
 		(at 151.13 77.47 180)
@@ -6756,16 +6961,6 @@
 		)
 		(uuid "d14ff178-9c7f-412f-8eec-5a01679c03ea")
 	)
-	(label "switch_a"
-		(at 134.62 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d36c3b8f-543d-446b-8994-b4c4ab7a1d46")
-	)
 	(label "v_sys"
 		(at 266.7 44.45 180)
 		(effects
@@ -6786,7 +6981,7 @@
 		)
 		(uuid "f0a27924-9009-4c13-8835-f8cc3e0d5e31")
 	)
-	(label "buzzer"
+	(label "button"
 		(at 266.7 74.93 180)
 		(effects
 			(font
@@ -6796,7 +6991,7 @@
 		)
 		(uuid "f344229b-cef0-4473-b8b7-5d4b72bbe782")
 	)
-	(label "esp_usb_dm"
+	(label "esp_usb_dp"
 		(at 63.5 125.73 0)
 		(effects
 			(font
@@ -6804,9 +6999,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f8236f95-8384-49d9-8f1e-9ea14264fb80")
+		(uuid "f8b7833e-2e44-4edf-ab96-117234b729ab")
 	)
-	(label "v_batt"
+	(label "v_batt_p"
 		(at 266.7 40.64 180)
 		(effects
 			(font
@@ -6894,6 +7089,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 222.25 137.16 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0734b476-4365-46a5-a90b-7c79e1c0ec24")
+		(property "Reference" "#FLG01"
+			(at 224.155 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 226.06 137.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 222.25 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce8627d1-27be-477f-87d9-e7eb11a16b4d")
+		)
+		(instances
+			(project "neon-beat-buzzer-pcb"
+				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 54.61 125.73 90)
 		(unit 1)
@@ -6967,6 +7241,83 @@
 			(project "neon-beat-buzzer-pcb"
 				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 88.9 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1256f376-e1a2-4cce-b5e1-1f32d31e7425")
+		(property "Reference" "#FLG02"
+			(at 88.9 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 88.646 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 88.9 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "add3a0bf-8b68-46e7-826a-722fecc5073b")
+		)
+		(instances
+			(project "neon-beat-buzzer-pcb"
+				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -7839,6 +8190,84 @@
 			(project "neon-beat-buzzer-pcb"
 				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39308568-efee-408f-9360-04f8e04664e9")
+		(property "Reference" "#PWR015"
+			(at 161.29 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "880c5650-0d58-495c-b300-61b5d13752d5")
+		)
+		(instances
+			(project "neon-beat-buzzer-pcb"
+				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8744,6 +9173,87 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 156.21 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63bc410c-aae2-4365-934c-729062589a77")
+		(property "Reference" "C8"
+			(at 159.258 108.966 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 158.75 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.1752 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "56436daa-6f16-46bb-9d0f-1fe2366b6091")
+		)
+		(pin "1"
+			(uuid "c178a2be-1d7a-4f34-9d05-2b2ccd3a7fe2")
+		)
+		(instances
+			(project "neon-beat-buzzer-pcb"
+				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 86.36 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -9477,7 +9987,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 84.582 55.118 0)
+			(at 80.01 53.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10417,7 +10927,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "240k"
 			(at 55.88 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10729,6 +11239,85 @@
 			(project "neon-beat-buzzer-pcb"
 				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 179.07 59.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8265bd9-f15b-47ff-8e94-222781c38d1a")
+		(property "Reference" "#FLG03"
+			(at 180.975 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 182.88 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 179.07 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65ccff70-d094-48b9-8d26-e25c8ed39521")
+		)
+		(instances
+			(project "neon-beat-buzzer-pcb"
+				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -11476,6 +12065,88 @@
 			(project "neon-beat-buzzer-pcb"
 				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 166.37 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1b0c23d-6763-4bc5-9550-3ee4d0395242")
+		(property "Reference" "C9"
+			(at 170.18 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 170.18 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.3352 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "32d37dca-c828-4d4f-a4f6-f2401ce55350")
+		)
+		(pin "1"
+			(uuid "f985771e-3d40-44a9-a781-fe4274ab6ea7")
+		)
+		(instances
+			(project "neon-beat-buzzer-pcb"
+				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
+					(reference "C9")
 					(unit 1)
 				)
 			)
