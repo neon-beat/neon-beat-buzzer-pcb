@@ -3977,7 +3977,7 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "5d3de1a0-25b8-4f99-b8ed-ab1252d3d0d9")
-		(at 137.5 100)
+		(at 135 100)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D4"
@@ -7464,7 +7464,7 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "8aec8481-459d-4a42-8839-ad13dc0e8593")
-		(at 162.5 100)
+		(at 165 100)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D3"
@@ -12366,16 +12366,132 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 111 88)
-		(end 228.5 142.5)
+	(gr_arc
+		(start 111.256669 94.462013)
+		(mid 112.259091 92.614834)
+		(end 114.227593 91.87868)
 		(stroke
-			(width 0.05)
-			(type default)
+			(width 0.16)
+			(type solid)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "02a71ed1-5728-4e59-8b0a-23797fadbf92")
+		(uuid "74b4049a-af81-42eb-b596-fef7485b356c")
+	)
+	(gr_line
+		(start 114.227593 91.87868)
+		(end 136.87868 91.87868)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e36885a5-0445-43e9-a861-eafe46c76ff3")
+	)
+	(gr_arc
+		(start 136.87868 91.87868)
+		(mid 139 92.75736)
+		(end 139.87868 94.87868)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9be28504-a789-4b3d-9edd-da7e323d37f3")
+	)
+	(gr_line
+		(start 139.87868 94.87868)
+		(end 139.87868 104.87868)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a8fa4d95-1069-4ce6-b7a4-90f9f0395fe5")
+	)
+	(gr_arc
+		(start 142.87868 107.87868)
+		(mid 140.75736 107)
+		(end 139.87868 104.87868)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d667bd3b-ef65-41b9-b283-f7976a51defe")
+	)
+	(gr_line
+		(start 142.87868 107.87868)
+		(end 156.87868 107.87868)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2a417987-09b6-45fe-bd68-c12db63d83d6")
+	)
+	(gr_arc
+		(start 159.87868 94.87868)
+		(mid 160.75736 92.75736)
+		(end 162.87868 91.87868)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f7a0171e-178e-46f6-a94f-771ac07d37a1")
+	)
+	(gr_arc
+		(start 159.87868 104.87868)
+		(mid 159 107)
+		(end 156.87868 107.87868)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4d68216f-9524-4fb8-84d2-f57d48e2878f")
+	)
+	(gr_line
+		(start 159.87868 104.87868)
+		(end 159.87868 94.87868)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "70a125cb-43c7-448e-8bf2-6ba01d2fd17c")
+	)
+	(gr_line
+		(start 162.87868 91.87868)
+		(end 185.529767 91.87868)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "36d11760-e47d-4901-8ded-63417c3c5adb")
+	)
+	(gr_arc
+		(start 185.529767 91.87868)
+		(mid 187.498276 92.614829)
+		(end 188.500691 94.462013)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4d0b0842-04a6-4e55-9c17-7b5c836e9967")
+	)
+	(gr_arc
+		(start 188.500691 94.462013)
+		(mid 149.87868 138.87868)
+		(end 111.256669 94.462013)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ec639c5e-ab2c-4708-ae65-03d709de73fe")
 	)
 	(embedded_fonts no)
 )
