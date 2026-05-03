@@ -5626,12 +5626,6 @@
 		(uuid "5a4db576-1712-4946-a37a-4c11551ed1e6")
 	)
 	(junction
-		(at 179.07 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f462fe1-e1f0-42b6-9c3b-1e85207133cc")
-	)
-	(junction
 		(at 198.12 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5818,6 +5812,12 @@
 		(uuid "e33eb700-3e20-47e3-967d-7f7e74ff5b0a")
 	)
 	(junction
+		(at 69.85 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea172c0d-7091-4346-923f-aee44028fb93")
+	)
+	(junction
 		(at 147.32 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5906,6 +5906,16 @@
 			(type default)
 		)
 		(uuid "048efdc4-009e-4cd3-9588-33b1c2583436")
+	)
+	(wire
+		(pts
+			(xy 74.93 59.69) (xy 81.28 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c93fc4-ab66-42aa-8e29-c58dcde83305")
 	)
 	(wire
 		(pts
@@ -6246,6 +6256,16 @@
 			(type default)
 		)
 		(uuid "369d91b3-6ab7-44c2-865a-1678e523b297")
+	)
+	(wire
+		(pts
+			(xy 69.85 41.91) (xy 62.23 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372247e0-908f-4a0b-8e11-58e715a85a31")
 	)
 	(wire
 		(pts
@@ -6689,7 +6709,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 41.91) (xy 62.23 41.91)
+			(xy 78.74 41.91) (xy 69.85 41.91)
 		)
 		(stroke
 			(width 0)
@@ -7389,16 +7409,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 59.69) (xy 88.9 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8a94d9c-2ec7-46b1-a02d-47dc8eb7b156")
-	)
-	(wire
-		(pts
 			(xy 266.7 78.74) (xy 269.24 78.74)
 		)
 		(stroke
@@ -8087,7 +8097,7 @@
 		)
 		(uuid "6394ae0b-b032-4d70-ae2f-4ce9a5f01ae6")
 	)
-	(label "v_sys"
+	(label "v_ldo"
 		(at 121.92 69.85 0)
 		(effects
 			(font
@@ -8648,83 +8658,6 @@
 			(project "neon-beat-buzzer-pcb"
 				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 88.9 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1256f376-e1a2-4cce-b5e1-1f32d31e7425")
-		(property "Reference" "#FLG02"
-			(at 88.9 57.785 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 88.646 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 88.9 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "add3a0bf-8b68-46e7-826a-722fecc5073b")
-		)
-		(instances
-			(project "neon-beat-buzzer-pcb"
-				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -9332,6 +9265,84 @@
 			(project "neon-beat-buzzer-pcb"
 				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 69.85 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29899602-cbd8-4090-a5c0-7d9c63839f2f")
+		(property "Reference" "#FLG04"
+			(at 69.85 40.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 69.85 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 69.85 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d9a2ff0-aa55-49a0-9b4e-b3493fb158c2")
+		)
+		(instances
+			(project "neon-beat-buzzer-pcb"
+				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -14361,85 +14372,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 179.07 59.69 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8265bd9-f15b-47ff-8e94-222781c38d1a")
-		(property "Reference" "#FLG03"
-			(at 180.975 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 182.88 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 179.07 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65ccff70-d094-48b9-8d26-e25c8ed39521")
-		)
-		(instances
-			(project "neon-beat-buzzer-pcb"
-				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 200.66 116.84 0)
 		(unit 1)
@@ -15772,7 +15704,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 109.22 57.15 0)
 			(hide yes)
 			(show_name no)
