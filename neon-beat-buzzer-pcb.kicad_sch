@@ -5584,6 +5584,12 @@
 		(uuid "2cb0c8c5-befa-4fde-883a-360e25bb75f6")
 	)
 	(junction
+		(at 179.07 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30306984-5788-40f4-a97f-cbed4517ecca")
+	)
+	(junction
 		(at 156.21 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5704,6 +5710,12 @@
 		(uuid "90b5cdce-3449-41d2-b7fc-786a93bc30ab")
 	)
 	(junction
+		(at 194.31 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93027a3a-44ff-4ad5-89b0-7557c2f2f4f5")
+	)
+	(junction
 		(at 58.42 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5734,18 +5746,6 @@
 		(uuid "9b2396e5-59f0-4215-a272-b0bd6373306d")
 	)
 	(junction
-		(at 256.54 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c7c5a1a-a6a9-4548-a787-61658a181b19")
-	)
-	(junction
-		(at 63.5 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f85f3f1-82e5-4406-a3bf-d800250db75a")
-	)
-	(junction
 		(at 231.14 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5768,6 +5768,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0cddc85-ad64-463e-8354-0824d87d6082")
+	)
+	(junction
+		(at 63.5 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b87a678b-2f41-4db6-999f-318ae684023a")
 	)
 	(junction
 		(at 177.8 81.28)
@@ -5804,12 +5810,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf08efef-4ca8-45ee-93d1-e35c48ebb915")
-	)
-	(junction
-		(at 153.67 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e33eb700-3e20-47e3-967d-7f7e74ff5b0a")
 	)
 	(junction
 		(at 69.85 41.91)
@@ -6019,16 +6019,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 172.72) (xy 63.5 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15015bc3-760f-4043-ac99-f456a0de7a08")
-	)
-	(wire
-		(pts
 			(xy 200.66 115.57) (xy 200.66 116.84)
 		)
 		(stroke
@@ -6096,6 +6086,16 @@
 			(type default)
 		)
 		(uuid "25e39726-17c9-42f7-ab4f-d9850fa0c763")
+	)
+	(wire
+		(pts
+			(xy 67.31 175.26) (xy 63.5 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ccb231-904d-456f-91dd-7b9ba93265ce")
 	)
 	(wire
 		(pts
@@ -6526,6 +6526,16 @@
 			(type default)
 		)
 		(uuid "4b4639a3-82ef-4174-aba9-4402d4b72602")
+	)
+	(wire
+		(pts
+			(xy 194.31 43.18) (xy 194.31 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba9c630-798a-45b6-bc42-3fa8e9591c55")
 	)
 	(wire
 		(pts
@@ -7029,7 +7039,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 59.69) (xy 153.67 59.69)
+			(xy 166.37 59.69) (xy 156.21 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7066,16 +7076,6 @@
 			(type default)
 		)
 		(uuid "8d15b50c-94da-4719-8e7b-ecb99fea5da1")
-	)
-	(wire
-		(pts
-			(xy 153.67 63.5) (xy 156.21 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f10be9d-e15d-448e-b7d1-d7530cbe47d1")
 	)
 	(wire
 		(pts
@@ -7219,7 +7219,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 63.5) (xy 153.67 63.5)
+			(xy 128.27 63.5) (xy 156.21 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7379,7 +7379,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 59.69) (xy 153.67 63.5)
+			(xy 156.21 59.69) (xy 156.21 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7416,6 +7416,16 @@
 			(type default)
 		)
 		(uuid "bb7a1210-e27e-4643-87e2-0066d36adcbe")
+	)
+	(wire
+		(pts
+			(xy 194.31 41.91) (xy 198.12 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bebf766e-4c99-4c9c-909b-205f4ac2ca1b")
 	)
 	(wire
 		(pts
@@ -7619,7 +7629,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 41.91) (xy 198.12 41.91)
+			(xy 187.96 41.91) (xy 194.31 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8258,7 +8268,7 @@
 		(uuid "b9767148-a42e-445d-ac18-8ac0bde809d0")
 	)
 	(label "v_batt_meas"
-		(at 63.5 172.72 90)
+		(at 67.31 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8419,85 +8429,6 @@
 			(project "neon-beat-buzzer-pcb"
 				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 256.54 137.16 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0734b476-4365-46a5-a90b-7c79e1c0ec24")
-		(property "Reference" "#FLG01"
-			(at 258.445 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 260.35 137.1599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 256.54 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ce8627d1-27be-477f-87d9-e7eb11a16b4d")
-		)
-		(instances
-			(project "neon-beat-buzzer-pcb"
-				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -10295,7 +10226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
 			(at 21.59 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -11579,6 +11510,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 194.31 43.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6950e11c-f3bb-4be8-ad7e-7f35c49523de")
+		(property "Reference" "#FLG01"
+			(at 194.31 45.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 195.834 48.514 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 194.31 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b5523ca-be37-4769-8682-7cb4abce005f")
+		)
+		(instances
+			(project "neon-beat-buzzer-pcb"
+				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 187.96 43.18 0)
 		(unit 1)
@@ -12408,7 +12416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
 			(at 21.59 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -13081,6 +13089,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 179.07 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a22c6de9-7f5b-47a4-bfe4-e1c70febae70")
+		(property "Reference" "#FLG02"
+			(at 179.07 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 179.07 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 179.07 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7804f401-950e-4e57-96ff-d9d5a9b12e1d")
+		)
+		(instances
+			(project "neon-beat-buzzer-pcb"
+				(path "/1aa5bb6d-1502-4465-bf5e-41cf5ab51d4a"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 219.71 123.19 0)
 		(unit 1)
@@ -13565,7 +13651,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac6cebfa-a6fa-4dea-ba4b-3e45911e0219")
 		(property "Reference" "#PWR011"
 			(at 243.84 143.51 0)
@@ -13579,7 +13664,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 142.24 0)
+			(at 247.904 139.954 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14640,7 +14725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
 			(at 21.59 170.18 0)
 			(hide yes)
 			(show_name no)
