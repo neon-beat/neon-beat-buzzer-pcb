@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "components_override") (type "KiCad") (uri "${KIPRJMOD}/components_override.pretty") (options "") (descr ""))
+)

@@ -466,7 +466,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "components_override:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "0e41741f-76b3-4a00-b8e8-3fcbd12cb80c")
 		(at 120.675 116.325)
@@ -474,7 +474,7 @@
 		(tags "test point SMD pad")
 		(property "Reference" "TP4"
 			(at 0 -1.448 0)
-			(layer "User.1")
+			(layer "F.Fab")
 			(uuid "be010613-c060-4a94-99e1-93f5ec3df383")
 			(effects
 				(font
@@ -507,7 +507,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -524,16 +524,11 @@
 		(path "/4ddd63f2-d658-472a-9f8f-64d477aaf150")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 0.7)
+			(end 0.75 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -733,7 +728,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "components_override:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "18481736-6bed-42be-a2c1-624a62b02c7d")
 		(at 129.4 107.2)
@@ -774,7 +769,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -791,16 +786,11 @@
 		(path "/c8eb0cff-c3d6-4a0a-894b-cbaabd350828")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 0.7)
+			(end 0.75 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -842,7 +832,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "components_override:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "19f21dea-e947-4d50-8207-5fcc19265581")
 		(at 136.5 126.5)
@@ -883,7 +873,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -900,16 +890,11 @@
 		(path "/f19bb2a2-b2fb-4acd-9da0-3eed0023ab40")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 0.7)
+			(end 0.75 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1109,7 +1094,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric"
+	(footprint "components_override:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "1ca175ff-7587-49cf-97af-9deddf206b5b")
 		(at 136.5 130.75 90)
@@ -1148,7 +1133,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1175,34 +1160,8 @@
 		(path "/8b5051df-9be9-4530-a444-ded574880087")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "837c406b-dd82-4ae9-b578-95b8f24ad293")
-		)
-		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "79200926-2680-4b99-971c-9b23288be4ca")
-		)
 		(fp_rect
 			(start -0.93 -0.47)
 			(end 0.93 0.47)
@@ -1270,7 +1229,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1d1a930d-19c7-4767-85a8-830a77be50b5")
-		(at 102.85 107.75 180)
+		(at 102.65 107.75 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -1434,7 +1393,7 @@
 		(property "Reference" "U2"
 			(at 0 -2.83 0)
 			(layer "F.Fab")
-			(uuid "a6384708-cbe1-4369-ace8-6f268d380a37")
+			(uuid "3fd69137-f1a7-478a-9b76-cb1b20a37b6c")
 			(effects
 				(font
 					(size 1 1)
@@ -1445,7 +1404,7 @@
 		(property "Value" "BQ24074RGT"
 			(at 0 2.83 0)
 			(layer "F.Fab")
-			(uuid "6b18ccdf-d1e0-4c04-ab5e-2d3254c8f29c")
+			(uuid "5990e50c-e8ed-4509-b9c5-2daa7ee71c76")
 			(effects
 				(font
 					(size 1 1)
@@ -1457,7 +1416,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c340f56c-2e79-44d8-91f9-fea9e70aaf71")
+			(uuid "c1107ea2-1218-4223-902f-366a42db5599")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,7 +1427,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c9ffc0f-fd2e-4e66-abdc-82390ed64350")
+			(uuid "efa202f3-8dfe-4a89-8ac5-b91500e3f086")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +2526,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric"
+	(footprint "components_override:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "36533852-71b8-407b-bbb1-48083d32757c")
 		(at 133.4 109.7)
@@ -2606,7 +2565,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2633,34 +2592,8 @@
 		(path "/4b11893b-ea9b-4cd2-8b60-f6a49539256e")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b06142df-31f9-43b6-86f5-28c85199cfc6")
-		)
-		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9f002ea2-6c05-465d-9b1b-c3c36f028d8b")
-		)
 		(fp_rect
 			(start -0.93 -0.47)
 			(end 0.93 0.47)
@@ -3434,7 +3367,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric"
+	(footprint "components_override:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "3d339a86-3808-49b0-b931-ac4a25d911c8")
 		(at 107 104.2 90)
@@ -3473,7 +3406,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3500,34 +3433,8 @@
 		(path "/2824921a-c319-43eb-af04-22911ce51aa2")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8927e924-73db-40c3-a8b7-63c05eb07ca3")
-		)
-		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9ef7f343-ba0d-496d-8948-71b003c25926")
-		)
 		(fp_rect
 			(start -0.93 -0.47)
 			(end 0.93 0.47)
@@ -3592,7 +3499,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "components_override:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "3e216555-4f00-4202-a31b-6c97781158d0")
 		(at 159.1 94.9)
@@ -3633,7 +3540,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3650,16 +3557,11 @@
 		(path "/9864bc56-b255-4e9a-8448-f3872bf2630b")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 0.7)
+			(end 0.75 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4764,7 +4666,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "components_override:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "4d9f182c-879b-4f76-a8c4-73ffa353f260")
 		(at 128.9 125.9)
@@ -4805,7 +4707,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4822,16 +4724,11 @@
 		(path "/3c3ad068-a7a2-4cc5-86bb-e4e2eea57c44")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 0.7)
+			(end 0.75 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4873,7 +4770,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric"
+	(footprint "components_override:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "5067624c-5f41-4a7b-865d-77ff89f04682")
 		(at 134.75 126.25 90)
@@ -4912,7 +4809,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4939,34 +4836,8 @@
 		(path "/120f8f02-4ed7-4eb2-9161-51f4131d4db1")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d8551892-584e-44de-8840-95fe16974250")
-		)
-		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9bd4a4f0-7f60-4980-9108-20bf3c43fdd4")
-		)
 		(fp_rect
 			(start -0.93 -0.47)
 			(end 0.93 0.47)
@@ -6014,7 +5885,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric"
+	(footprint "components_override:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6bd37fb5-532f-469a-9825-6551044f1fcb")
 		(at 125.8 109.6)
@@ -6053,7 +5924,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6080,34 +5951,8 @@
 		(path "/a94eb8c6-bc4b-4f9b-ab21-d97cdf7b9358")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4eaf722b-f068-4cfb-8518-8d89d995e2d4")
-		)
-		(fp_line
-			(start -0.107836 0.36)
-			(end 0.107836 0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a5d3cae0-e986-4260-a87d-44c4a3a24dc9")
-		)
 		(fp_rect
 			(start -0.91 -0.46)
 			(end 0.91 0.46)
@@ -6172,7 +6017,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "components_override:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "6dd9536a-b9bd-4e60-8c76-e758d1a7fc69")
 		(at 123.525 118.075)
@@ -6180,7 +6025,7 @@
 		(tags "test point SMD pad")
 		(property "Reference" "TP11"
 			(at 0 -1.448 0)
-			(layer "User.1")
+			(layer "F.Fab")
 			(uuid "d5b7cdaa-c283-48ca-a347-659015089788")
 			(effects
 				(font
@@ -6213,7 +6058,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6230,16 +6075,11 @@
 		(path "/9063feb6-0120-436f-935c-e825afbcac8d")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 0.7)
+			(end 0.75 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6277,12 +6117,11 @@
 			(net "/v_batt_meas")
 			(pinfunction "1_1")
 			(pintype "passive")
-			(solder_mask_margin 0.15)
 			(uuid "9292e796-8108-48ab-b8bc-48f8fa3cb7c1")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric"
+	(footprint "components_override:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6f6eda88-6e8a-4855-b365-c2a993bd038b")
 		(at 130.4 130.8 90)
@@ -6321,7 +6160,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6348,34 +6187,8 @@
 		(path "/d1250c83-2508-4d61-b963-0d724de05a5c")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2c945fa5-4c4d-4236-adfd-f744ee32a50f")
-		)
-		(fp_line
-			(start -0.107836 0.36)
-			(end 0.107836 0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "daecd348-ac60-4ead-974a-584a741a7e23")
-		)
 		(fp_rect
 			(start -0.91 -0.46)
 			(end 0.91 0.46)
@@ -6440,7 +6253,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "components_override:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "7e977277-e225-4630-9b51-92b481056936")
 		(at 113.75 93.45)
@@ -6481,7 +6294,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6498,16 +6311,11 @@
 		(path "/b8fb1f17-c616-4364-9fff-13f3fdbe2fe6")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 0.7)
+			(end 0.75 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6549,7 +6357,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric"
+	(footprint "components_override:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8086247c-fcd4-4e60-8758-dcd9d1383d50")
 		(at 120.05 111.6)
@@ -6588,7 +6396,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6615,34 +6423,8 @@
 		(path "/1ad1ae52-e618-4af3-a6d4-1847fe15fa16")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4561d1e7-60b8-4551-affd-44483727a6a5")
-		)
-		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0f59cc6d-bd9e-4ec6-8dbf-0412d6cc2154")
-		)
 		(fp_rect
 			(start -0.93 -0.47)
 			(end 0.93 0.47)
@@ -6703,7 +6485,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -7109,14 +6891,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric"
+	(footprint "components_override:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "82da4d0c-d8c5-43e3-abad-29c1f6c2ba70")
 		(at 152 96.8 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C16"
-			(at 0 -1.16 0)
+			(at 0 -1.16 180)
 			(layer "F.Fab")
 			(uuid "0fab515d-6f0d-4273-bf06-888ac55774b0")
 			(effects
@@ -7127,7 +6909,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.16 0)
+			(at 0 1.16 180)
 			(layer "F.Fab")
 			(uuid "18c0e8dc-8d8e-4873-9546-8acdc746d709")
 			(effects
@@ -7138,7 +6920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "41596ff4-73ec-4fa7-ac50-3c1c401b0ece")
@@ -7148,8 +6930,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9861ebf2-a7b4-41ad-bd53-e7753edecd42")
@@ -7160,7 +6942,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9bed2b79-a31c-4343-8b74-d0c9691149f3")
@@ -7175,34 +6957,8 @@
 		(path "/5e4828e6-67b5-4307-a43c-bef9109f79c4")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.107836 0.36)
-			(end 0.107836 0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ab0e992d-d8a3-4e32-8a07-79db18acbe2b")
-		)
-		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "328ecef5-d652-4913-89fd-43a9f3e856b3")
-		)
 		(fp_rect
 			(start -0.91 -0.46)
 			(end 0.91 0.46)
@@ -7226,7 +6982,7 @@
 			(uuid "9f935b9b-3565-41a8-b78d-088916f9072f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "7d41b717-e31a-4d0f-b85b-ca5b1a0c4f13")
 			(effects
@@ -7267,7 +7023,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "components_override:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "86e6bac3-1aee-47fa-b6d4-edc3cc9a0288")
 		(at 117.5 101)
@@ -7308,7 +7064,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7325,16 +7081,11 @@
 		(path "/f1e23590-4025-4864-b0b4-69c9a78a88be")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 0.7)
+			(end 0.75 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -7376,14 +7127,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric"
+	(footprint "components_override:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "88668cd5-17e2-4220-9f53-d930bd5e19e0")
 		(at 120.8 96.6 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C15"
-			(at 0 -1.16 0)
+			(at 0 -1.16 180)
 			(layer "F.Fab")
 			(uuid "4e8bb76d-1055-4109-902f-52a960391dfb")
 			(effects
@@ -7394,7 +7145,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.16 0)
+			(at 0 1.16 180)
 			(layer "F.Fab")
 			(uuid "503dd122-7a27-4d1e-b4c2-284edf8f4d4a")
 			(effects
@@ -7405,7 +7156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c30826dd-bf62-4ea3-b478-8817c27b171c")
@@ -7415,8 +7166,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "956738bf-37be-45d9-af70-19fc220f892e")
@@ -7427,7 +7178,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7d44f901-3c0a-47a5-b948-3af2a7cb82ac")
@@ -7442,34 +7193,8 @@
 		(path "/78803e0b-2eed-4a0e-a14d-2b29ae5324c7")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.107836 0.36)
-			(end 0.107836 0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7e7871ba-5850-4108-aed6-5d2ce9c9549b")
-		)
-		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "26275861-e18f-4761-830a-96dedcdce9c0")
-		)
 		(fp_rect
 			(start -0.91 -0.46)
 			(end 0.91 0.46)
@@ -7493,7 +7218,7 @@
 			(uuid "e6602ee1-dd33-4012-8e8b-1040b7b342c0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "294969bb-02a3-4d0f-9ec6-52911ff4fbd1")
 			(effects
@@ -7692,7 +7417,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric"
+	(footprint "components_override:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8c380d8f-f311-48ee-9a53-f58dd42430af")
 		(at 126.7 129.8 90)
@@ -7731,7 +7456,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7758,34 +7483,8 @@
 		(path "/2b1bb5f9-b834-45e8-bcbc-183156d05830")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5a77010f-f053-42d3-8450-b081f4df4868")
-		)
-		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ce0ed963-761b-437f-a15a-e0369ca2d631")
-		)
 		(fp_rect
 			(start -0.93 -0.47)
 			(end 0.93 0.47)
@@ -7850,7 +7549,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric"
+	(footprint "components_override:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "942d137b-0d0a-4347-9fc2-24157f243077")
 		(at 119.6125 113.65 90)
@@ -7889,7 +7588,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7916,34 +7615,8 @@
 		(path "/dcf19083-80e0-4817-9452-49a22792c560")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7d352279-3878-4965-b2ae-25f727467384")
-		)
-		(fp_line
-			(start -0.107836 0.36)
-			(end 0.107836 0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "071e5acf-106e-44cf-a9a1-031dd2ffd3a9")
-		)
 		(fp_rect
 			(start -0.91 -0.46)
 			(end 0.91 0.46)
@@ -8008,7 +7681,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric"
+	(footprint "components_override:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "964076fe-a0dc-4c59-ad3d-10d8595ea331")
 		(at 131.5 130.8 90)
@@ -8047,7 +7720,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8074,34 +7747,8 @@
 		(path "/dcb6a25f-5b21-4e42-8b89-53ecfda9492f")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e0033d4a-5ca8-468e-a271-a5ebd83031c3")
-		)
-		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b380cd62-4938-4cbb-942a-5f56bf09c678")
-		)
 		(fp_rect
 			(start -0.93 -0.47)
 			(end 0.93 0.47)
@@ -8821,7 +8468,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "components_override:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "a30da8b3-e394-44b1-a424-c5fa50e5ba13")
 		(at 139.85 109.4)
@@ -8862,7 +8509,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8879,16 +8526,11 @@
 		(path "/de6a82a0-e297-40a6-bdaa-ca9da2f64b54")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 0.7)
+			(end 0.75 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8933,7 +8575,7 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "a8bf0435-462a-4839-aeb7-148223a1644b")
-		(at 149.4 93.25 180)
+		(at 149.4 93.2 180)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D4"
@@ -9559,14 +9201,14 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric"
+	(footprint "components_override:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b6a5c945-2719-4c74-84a8-e8f6738bdcc9")
 		(at 126.85 120.4 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R16"
-			(at 0 -1.17 0)
+			(at 0 -1.17 180)
 			(layer "F.Fab")
 			(uuid "04da87e4-7ef0-4c03-b5b4-8880fe2bebeb")
 			(effects
@@ -9577,7 +9219,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.17 0)
+			(at 0 1.17 180)
 			(layer "F.Fab")
 			(uuid "823d397f-d3dc-4d76-8a16-e8c38342b99c")
 			(effects
@@ -9588,7 +9230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f8607b8d-6b2b-4cca-9a26-b03ef2d1cfda")
@@ -9598,8 +9240,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "48738890-6558-4f1d-93c2-2943a0ed1b88")
@@ -9610,7 +9252,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a4817a0c-af5d-4ae1-a3e0-4068f1697417")
@@ -9625,34 +9267,8 @@
 		(path "/42f6871f-74d5-43d7-b300-cfb5a124a451")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "be3dad36-b909-4205-8296-1eef6e1fa4e8")
-		)
-		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "54be37fa-89f1-47d1-b26c-fbfbe96de98e")
-		)
 		(fp_rect
 			(start -0.93 -0.47)
 			(end 0.93 0.47)
@@ -9676,7 +9292,7 @@
 			(uuid "f2577825-d877-458b-b975-60dc23c4b688")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "24de4139-1cef-4fb9-8a08-4604729c1f92")
 			(effects
@@ -10309,7 +9925,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric"
+	(footprint "components_override:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ba78f523-eab0-470b-af54-4a5abb2e5ec5")
 		(at 138.2 109 90)
@@ -10348,7 +9964,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10375,34 +9991,8 @@
 		(path "/63bc410c-aae2-4365-934c-729062589a77")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "164482f4-bb46-49a1-b2e5-68f008bb2aa4")
-		)
-		(fp_line
-			(start -0.107836 0.36)
-			(end 0.107836 0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "86ddaac5-c461-4f27-8625-1a29c508477d")
-		)
 		(fp_rect
 			(start -0.91 -0.46)
 			(end 0.91 0.46)
@@ -10467,7 +10057,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "components_override:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "baf22733-8524-4c29-b161-924096cfdcc0")
 		(at 126.7 122.2)
@@ -10508,7 +10098,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10525,16 +10115,11 @@
 		(path "/3e8b0061-9b2a-4c9e-8de0-8335bb64ef9a")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 0.7)
+			(end 0.75 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11811,14 +11396,14 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric"
+	(footprint "components_override:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "de67564b-8d46-4589-a1a3-9fddbd6bf76d")
 		(at 104.2 104.6 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 -1.17 90)
+			(at 0 -1.17 270)
 			(layer "F.Fab")
 			(uuid "d911b26d-a4d0-40e7-81d9-f1fc016bffc1")
 			(effects
@@ -11829,7 +11414,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.17 90)
+			(at 0 1.17 270)
 			(layer "F.Fab")
 			(uuid "a8787bdb-f3ff-48ca-9edf-292156cbc8ea")
 			(effects
@@ -11840,7 +11425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "254d7d13-4d76-4692-825a-18ea4cd3f0bb")
@@ -11850,8 +11435,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6fc09e48-136b-4ef4-807d-af12190895a3")
@@ -11862,7 +11447,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "33173230-1529-4845-a879-740f367a84fb")
@@ -11877,34 +11462,8 @@
 		(path "/505018c5-c725-412c-b878-2b050d6c650e")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3cefbfe6-aa0c-4e9c-8040-1bd13ac85475")
-		)
-		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e7298b83-9c7e-4678-bc95-2d7a1d631015")
-		)
 		(fp_rect
 			(start -0.93 -0.47)
 			(end 0.93 0.47)
@@ -11928,7 +11487,7 @@
 			(uuid "0c6fa219-6a29-4522-82b4-a4e5a668c88b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "de7e86da-2efb-49b3-8f3a-7b439d1b65b6")
 			(effects
@@ -13426,7 +12985,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "components_override:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "f3ceeccd-0a3c-49d1-a336-9434f2228b11")
 		(at 131.75 126.5)
@@ -13467,7 +13026,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13484,16 +13043,11 @@
 		(path "/6f65b3b7-f6c7-4682-8641-55698ce20ae8")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 0.7)
+			(end 0.75 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -13535,14 +13089,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric"
+	(footprint "components_override:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f48e2796-eab6-4f86-b361-46262b617470")
 		(at 126.85 119.3 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 -1.16 0)
+			(at 0 -1.16 180)
 			(layer "F.Fab")
 			(uuid "6b48617f-3c00-4807-b014-3cf95b3a345e")
 			(effects
@@ -13553,7 +13107,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.16 0)
+			(at 0 1.16 180)
 			(layer "F.Fab")
 			(uuid "20c3d0ed-7665-4b66-aaea-59db10897657")
 			(effects
@@ -13564,7 +13118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "85484e54-36ee-448b-a115-0d5af10765e9")
@@ -13574,8 +13128,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b3fd12b2-a83d-4908-8505-2f15f06db036")
@@ -13586,7 +13140,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f10a17ad-031e-4977-833b-dd0a0f064ecd")
@@ -13601,34 +13155,8 @@
 		(path "/c7ec7943-4689-4ba0-9957-90e2ab1fb07c")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.107836 0.36)
-			(end 0.107836 0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f5b3897d-76b1-4998-8e00-b3d705b7873a")
-		)
-		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6c075528-a4b1-4888-82e6-fbf4d052697d")
-		)
 		(fp_rect
 			(start -0.91 -0.46)
 			(end 0.91 0.46)
@@ -13652,7 +13180,7 @@
 			(uuid "2d549ebe-1ce6-402b-b897-a7bab48521f8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "a4173b37-73e5-421d-a6bb-4a47bb8adc73")
 			(effects
@@ -13693,14 +13221,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric"
+	(footprint "components_override:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f5b03d8f-e7a7-44cb-9465-1abbc818280c")
 		(at 127.25 113.2 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at 0 -1.16 90)
+			(at 0 -1.16 270)
 			(layer "F.Fab")
 			(uuid "88ca95f7-a7f0-4054-8528-510c2a371773")
 			(effects
@@ -13711,7 +13239,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.16 90)
+			(at 0 1.16 270)
 			(layer "F.Fab")
 			(uuid "062e9a3e-99c5-44b2-9396-5a73c3452eb4")
 			(effects
@@ -13722,7 +13250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1770b8db-c71c-4ff5-bbf9-756100bfc743")
@@ -13732,8 +13260,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c42229b-6aa6-4c97-b04e-6c43e2519c55")
@@ -13744,7 +13272,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "62fa651c-935a-421e-8b00-0a25b8243230")
@@ -13759,34 +13287,8 @@
 		(path "/0a3631fd-aadd-48d5-b680-35ed2c1bab18")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.107836 0.36)
-			(end 0.107836 0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ae54c4f9-25a1-4f96-963d-25153709251b")
-		)
-		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "04d1f36e-0bc8-41f6-a247-7cc784615ff5")
-		)
 		(fp_rect
 			(start -0.91 -0.46)
 			(end 0.91 0.46)
@@ -13810,7 +13312,7 @@
 			(uuid "6aaf3a88-69bc-4716-af9e-4874403a4695")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "69c3c11c-d56b-4180-9d24-f5ddc1f8b93d")
 			(effects
@@ -13851,7 +13353,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "components_override:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "f8939901-3648-46be-9e5d-af00a090c4ee")
 		(at 105.15 98.65)
@@ -13892,7 +13394,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13909,16 +13411,11 @@
 		(path "/2b867fdd-577a-4c0e-95b4-8c815606f25e")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 0.7)
+			(end 0.75 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -13960,7 +13457,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric"
+	(footprint "components_override:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "fb0b60f6-6257-4bc4-a0cf-8427a73b1db8")
 		(at 133.5 126.25 90)
@@ -13999,7 +13496,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14026,34 +13523,8 @@
 		(path "/a7cd0ea6-92bc-4817-8cfd-337bcd7c8427")
 		(sheetname "/")
 		(sheetfile "neon-beat-buzzer-pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c66d71b4-c488-4893-be7c-c0c25ac7c937")
-		)
-		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a4504b6f-b3fd-4f18-8b1c-f46234388008")
-		)
 		(fp_rect
 			(start -0.93 -0.47)
 			(end 0.93 0.47)
@@ -15987,11 +15458,11 @@
 	)
 	(segment
 		(start 101.2 107.8)
-		(end 102.025 107.8)
+		(end 101.825 107.8)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "GND")
-		(uuid "7c15606e-ab23-498b-b3fa-a73b31ac0a4c")
+		(uuid "78d2c0b6-aeec-4b9c-b920-65fb67ffa7ee")
 	)
 	(segment
 		(start 121.005 113.17)
@@ -16386,20 +15857,20 @@
 		(uuid "e101b4e1-4d34-4ba1-86a5-4b0579f46212")
 	)
 	(segment
+		(start 101.825 107.8)
+		(end 101.875 107.75)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "e3663a69-29bd-47c1-9632-3bf3ffa84159")
+	)
+	(segment
 		(start 105.275 103.5)
 		(end 105.6 103.175)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "e36fa308-ec31-4ec1-8c19-4f2c67d86e7b")
-	)
-	(segment
-		(start 102.025 107.8)
-		(end 102.075 107.75)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "e7c54a97-8cfa-4f4e-82ca-9a07f3010384")
 	)
 	(segment
 		(start 121.925 104.7)
@@ -17112,12 +16583,12 @@
 		(uuid "afebdb5f-f6c7-4d78-b080-7d24394bfa3d")
 	)
 	(segment
-		(start 103.2 107.325)
-		(end 103.2 98.6)
+		(start 102.025 91)
+		(end 105.15 94.125)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "/v_batt_p")
-		(uuid "00d3aabe-849e-450d-b5f0-08543065fb6e")
+		(uuid "0027c323-96b9-465a-8666-df92391f6168")
 	)
 	(segment
 		(start 123.05 116.25)
@@ -17128,44 +16599,60 @@
 		(uuid "02758eeb-2b7e-4c8f-8710-4bb51928e2d4")
 	)
 	(segment
-		(start 103.2 98.6)
-		(end 104.15 97.65)
+		(start 103.675 108)
+		(end 103.425 107.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/v_batt_p")
+		(uuid "0e0c1c7f-bfae-43ba-9b06-6af1603a39da")
+	)
+	(segment
+		(start 103.425 100.375)
+		(end 103.425 107.75)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "/v_batt_p")
-		(uuid "32dfc6b5-6f4d-4eb3-a391-8ff71ab21588")
+		(uuid "36a0ce9e-2949-4f63-95ae-ca7387a65693")
 	)
 	(segment
-		(start 104.15 93.125)
-		(end 102.025 91)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/v_batt_p")
-		(uuid "3905dec5-1a84-4a4f-b751-0f95f7f9273d")
-	)
-	(segment
-		(start 103.875 108)
-		(end 103.625 107.75)
+		(start 110.9 116.1)
+		(end 109.1 116.1)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "/v_batt_p")
-		(uuid "43af39af-57f6-41a9-af72-e0e4c3997ad1")
+		(uuid "42a2f6b3-d5d6-420f-922b-56af24b96507")
 	)
 	(segment
-		(start 104.15 97.65)
-		(end 104.15 93.125)
+		(start 103.425 110.425)
+		(end 103.425 107.75)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/v_batt_p")
+		(uuid "5e111284-f00b-46f8-80cd-4ca933ee9409")
+	)
+	(segment
+		(start 105.1625 108)
+		(end 103.675 108)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/v_batt_p")
+		(uuid "6097a170-aa5e-4dc8-b0b7-b6aab060bc3a")
+	)
+	(segment
+		(start 105.15 94.125)
+		(end 105.15 98.65)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "/v_batt_p")
-		(uuid "4484c8a8-33fd-4adf-971c-69bf8901f870")
+		(uuid "654e3d7f-028e-49b2-8f42-2558df66512f")
 	)
 	(segment
-		(start 103.625 107.75)
-		(end 103.2 107.325)
-		(width 0.5)
+		(start 103.675 107.5)
+		(end 103.425 107.75)
+		(width 0.2)
 		(layer "F.Cu")
 		(net "/v_batt_p")
-		(uuid "753e0dcd-deb5-4dca-b228-096b05096439")
+		(uuid "712107c5-054e-4d0a-833e-943a56436014")
 	)
 	(segment
 		(start 125.425 116.25)
@@ -17176,60 +16663,28 @@
 		(uuid "908ff6df-734f-48c1-9781-4c08a0edafa6")
 	)
 	(segment
-		(start 103.875 107.5)
-		(end 103.625 107.75)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/v_batt_p")
-		(uuid "a39fa931-956a-49e9-b8f9-d9b74da1e89d")
-	)
-	(segment
-		(start 109.1 116.1)
-		(end 110.9 116.1)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/v_batt_p")
-		(uuid "a97286e1-b7aa-4712-939e-cbdf7505b441")
-	)
-	(segment
-		(start 105.1625 108)
-		(end 103.875 108)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/v_batt_p")
-		(uuid "b03ac4f9-54f8-47f2-a699-fdc3714204fa")
-	)
-	(segment
-		(start 105.1625 107.5)
-		(end 103.875 107.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/v_batt_p")
-		(uuid "bc310bb6-a89f-4629-ab61-61e5f1cdd10e")
-	)
-	(segment
-		(start 104.15 97.65)
-		(end 105.15 98.65)
+		(start 105.15 98.65)
+		(end 103.425 100.375)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "/v_batt_p")
-		(uuid "d2a43230-0394-4d61-ad1f-467f05e10502")
+		(uuid "b9467ed1-428c-496f-8ac0-ce131c16e41c")
 	)
 	(segment
-		(start 103.625 110.625)
-		(end 109.1 116.1)
+		(start 105.1625 107.5)
+		(end 103.675 107.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/v_batt_p")
+		(uuid "d788701d-1e16-4837-8998-4e305e5dd765")
+	)
+	(segment
+		(start 109.1 116.1)
+		(end 103.425 110.425)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "/v_batt_p")
-		(uuid "edd030c1-31f6-4de7-b4c9-5e2bd37fa56e")
-	)
-	(segment
-		(start 103.625 107.75)
-		(end 103.625 110.625)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/v_batt_p")
-		(uuid "f4754bc1-1b32-48b6-86fd-7039582f16b3")
+		(uuid "fccc8af9-080a-4708-9549-45e5b7817778")
 	)
 	(via
 		(at 110.9 116.1)
